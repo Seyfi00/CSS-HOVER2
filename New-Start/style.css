@@ -6,25 +6,21 @@ body section {
   padding: 60px 0;
 }
 
-#demo1 .bigbox {
-  display: flex;
-  justify-content: space-around;
-}
-#demo1 .bigbox .box {
+#demo1 .box {
   background-color: #3e5a97;
   width: 150px;
   height: 150px;
 }
-#demo1 .bigbox .box .minibox {
+#demo1 .box .minibox {
   background-color: #1c1c69;
   width: 80px;
   height: 80px;
   transition: 1s;
 }
-#demo1 .bigbox .box .minibox h3 {
+#demo1 .box .minibox h3 {
   color: #ffffff;
 }
-#demo1 .bigbox .box .minibox:hover {
+#demo1 .box .minibox:hover {
   width: 100px;
   height: 100px;
 }/*# sourceMappingURL=style.css.map */
