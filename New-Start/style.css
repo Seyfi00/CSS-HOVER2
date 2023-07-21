@@ -10,6 +10,7 @@ body section {
   background-color: #3e5a97;
   width: 150px;
   height: 150px;
+  border: 2px solid #026721;
 }
 #demo1 .box .minibox {
   background-color: #1c1c69;
@@ -23,4 +24,55 @@ body section {
 #demo1 .box .minibox:hover {
   width: 100px;
   height: 100px;
+}
+
+#demo2 .box {
+  background-color: #754c67;
+  border: 1px solid #9a9595;
+  border-radius: 5px;
+  width: 130px;
+  height: 60px;
+  padding: 5px;
+  transition: 1s;
+}
+#demo2 .box h3 {
+  color: #ffffff;
+}
+#demo2 .box:hover {
+  cursor: pointer;
+  border: 3px solid #693f5b;
+  background-color: #343f43;
+}
+
+#demo3 .box {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  background-color: #9b650f;
+  transition: 2s;
+}
+#demo3 .box h3 {
+  color: #ffffff;
+  font-weight: 600;
+}
+#demo3 .box:hover {
+  border-radius: 30px;
+}
+
+#demo4 .box {
+  position: relative;
+}
+#demo4 .box .minibox {
+  background-color: #354976;
+  margin: 10px 0;
+  width: 180px;
+  height: 120px;
+}
+#demo4 .box .minibox h1 {
+  color: #ffffff;
+}
+#demo4 .box .mini5 {
+  position: absolute;
+  left: 180px;
+  margin: 0;
 }/*# sourceMappingURL=style.css.map */
