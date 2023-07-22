@@ -75,4 +75,22 @@ body section {
   position: absolute;
   left: 180px;
   margin: 0;
+}
+
+#demo5 .box {
+  position: relative;
+}
+#demo5 .box .minibox {
+  background-color: #65b165;
+  margin: 10px 0;
+  width: 180px;
+  height: 120px;
+}
+#demo5 .box .minibox h1 {
+  color: #ffffff;
+}
+#demo5 .box .mini2 {
+  position: absolute;
+  left: 180px;
+  margin: 0;
 }/*# sourceMappingURL=style.css.map */
